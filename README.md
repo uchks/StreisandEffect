@@ -35,3 +35,4 @@ git clone streisandeffect/FILE.bundle
 | 🟩 | [Microsoft-Activation-Scripts](https://github.com/massgravel/Microsoft-Activation-Scripts) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/massgravel/Microsoft-Activation-Scripts) | 01/10/2024 |
 | 🟩 | [gibMacOS](https://github.com/corpnewt/gibMacOS) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/corpnewt/gibMacOS) | 01/10/2024 |
 | 🟩 | [PC-Tuning](https://github.com/valleyofdoom/PC-Tuning) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/valleyofdoom/PC-Tuning) | 01/10/2024 |
+| 🟩 | [limit-nvpstate](https://github.com/valleyofdoom/limit-nvpstate) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/valleyofdoom/limit-nvpstate) | 01/10/2024 |
