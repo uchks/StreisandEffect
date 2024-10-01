@@ -39,3 +39,4 @@ See this [demo](https://github.com/uchks/StreisandEffect/tree/archive).
 | 🟩 | [StresKit](https://github.com/valleyofdoom/StresKit) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/valleyofdoom/StresKit) | 01/10/2024 |
 | 🟩 | [AutoGpuAffinity](https://github.com/valleyofdoom/AutoGpuAffinity) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/valleyofdoom/AutoGpuAffinity) | 01/10/2024 |
 | 🟩 | [MouseTester](https://github.com/valleyofdoom/MouseTester) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/valleyofdoom/MouseTester) | 01/10/2024 |
+| 🟩 | [citra](https://github.com/PabloMK7/citra) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/PabloMK7/citra) | 01/10/2024 |
