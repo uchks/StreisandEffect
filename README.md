@@ -22,3 +22,4 @@ See this [demo](https://github.com/uchks/StreisandEffect/tree/archive).
 
 > [!NOTE]  
 > The results are stored in the `archive` branch by default
+| 🟩 | [yt-dlp](https://github.com/yt-dlp/yt-dlp) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/yt-dlp/yt-dlp) | 01/10/2024 |
