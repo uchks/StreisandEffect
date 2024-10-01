@@ -36,3 +36,4 @@ See this [demo](https://github.com/uchks/StreisandEffect/tree/archive).
 | 🟩 | [ReservedCpuSets](https://github.com/valleyofdoom/ReservedCpuSets) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/valleyofdoom/ReservedCpuSets) | 01/10/2024 |
 | 🟩 | [AppxPackagesManager](https://github.com/valleyofdoom/AppxPackagesManager) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/valleyofdoom/AppxPackagesManager) | 01/10/2024 |
 | 🟩 | [service-list-builder](https://github.com/valleyofdoom/service-list-builder) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/valleyofdoom/service-list-builder) | 01/10/2024 |
+| 🟩 | [StresKit](https://github.com/valleyofdoom/StresKit) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/valleyofdoom/StresKit) | 01/10/2024 |
