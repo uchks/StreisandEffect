@@ -41,3 +41,4 @@ git clone streisandeffect/FILE.bundle
 | 🟩 | [Benchmark-DirectX9](https://github.com/valleyofdoom/Benchmark-DirectX9) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/valleyofdoom/Benchmark-DirectX9) | 01/10/2024 |
 | 🟩 | [win-wallpaper](https://github.com/valleyofdoom/win-wallpaper) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/valleyofdoom/win-wallpaper) | 01/10/2024 |
 | 🟩 | [ReservedCpuSets](https://github.com/valleyofdoom/ReservedCpuSets) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/valleyofdoom/ReservedCpuSets) | 01/10/2024 |
+| 🟩 | [AppxPackagesManager](https://github.com/valleyofdoom/AppxPackagesManager) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/valleyofdoom/AppxPackagesManager) | 01/10/2024 |
