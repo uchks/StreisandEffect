@@ -1,5 +1,4 @@
 https://github.com/yt-dlp/yt-dlp
-https://github.com/gookie-dev/studydrive
 https://github.com/pystardust/ani-cli
 https://github.com/marios-commissions/stalker
 https://github.com/massgravel/Microsoft-Activation-Scripts
