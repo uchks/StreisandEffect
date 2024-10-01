@@ -17,7 +17,6 @@ init_git() {
 
 repo_exist_not_empty() {
     git ls-remote --quiet --exit-code --heads "$1" | grep --max-count 1 "refs/heads/$2" &>/dev/null
-    return $?
 }
 
 is_comment() {
@@ -42,24 +41,24 @@ add_to_readme() {
 
 1. Clone the \`archive\` branch
 
-```bash
-git clone --branch archive https://github.com/your-username/your-repo streisandeffect
-```
+    \`\`\`bash
+    git clone --branch archive https://github.com/your-username/your-repo streisandeffect
+    \`\`\`
 
 2. Restore from bundle
 
-```bash
-git clone streisandeffect/FILE.bundle
-```
+    \`\`\`bash
+    git clone streisandeffect/FILE.bundle
+    \`\`\`
 
 ## Download only a specific backup
 
-```bash
-git clone --no-checkout --depth=1 --no-tags --branch archive https://github.com/your-username/your-repo streisandeffect
-git -C streisandeffect restore --staged FILE.bundle
-git -C streisandeffect checkout FILE.bundle
-git clone streisandeffect/FILE.bundle
-```
+    \`\`\`bash
+    git clone --no-checkout --depth=1 --no-tags --branch archive https://github.com/your-username/your-repo streisandeffect
+    git -C streisandeffect restore --staged FILE.bundle
+    git -C streisandeffect checkout FILE.bundle
+    git clone streisandeffect/FILE.bundle
+    \`\`\`
 
 </details>
 
@@ -72,7 +71,7 @@ EOF
     url_exist "$repo_url" && software_heritage_md="[Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=$repo_url)"
 
     if ! grep --silent "$repo_url" README.md; then
-        current_date="$(date '+%d/%m/%Y')"
+        local current_date="$(date '+%d/%m/%Y')"
         echo "| 🟩 | [$repo_name]($repo_url) | $software_heritage_md | $current_date |" >> README.md
     fi
 }
@@ -96,7 +95,7 @@ set_repo_status() {
     fi
 
     awk --assign url="$repo_url" --assign status="$color" 'BEGIN {FS=OFS="|"} $3 ~ url {$2=" "status" "} 1' README.md > README.md.temp && mv --force README.md.temp README.md
-    [ "$repo_name" = 'test-repo' ] && cat README.md
+    [[ "$repo_name" == 'test-repo' ]] && cat README.md
 }
 
 commit_and_push() {
@@ -105,8 +104,12 @@ commit_and_push() {
     log "Adding README.md to the commit"
     git add README.md || { log "Failed to add README.md"; return 1; }
 
-    log "Adding $repo_name.bundle to the commit"
-    git add "$repo_name.bundle" || { log "Failed to add $repo_name.bundle"; return 1; }
+    if [[ -f "$repo_name.bundle" ]]; then
+        log "Adding $repo_name.bundle to the commit"
+        git add "$repo_name.bundle" || { log "Failed to add $repo_name.bundle"; return 1; }
+    else
+        log "$repo_name.bundle not found, skipping."
+    fi
 
     log "Committing changes"
     git commit --message="Update $repo_name" || { log "Failed to commit changes"; return 1; }
@@ -122,10 +125,8 @@ for entry in "${repos[@]}"; do
         repo_name="$(basename "$entry")"
         log "---------------------------- Archiving ${repo_name}... ----------------------------"
 
-        current_hash=''
-        if [[ -s "$repo_name.bundle" ]]; then
-            current_hash="$(sha256sum "$repo_name.bundle" | awk '{print $1}')"
-        fi
+        local current_hash=''
+        [[ -f "$repo_name.bundle" ]] && current_hash="$(sha256sum "$repo_name.bundle" | awk '{print $1}')"
 
         if repo_exist_not_empty "$entry" "$ARCHIVE_BRANCH"; then
             git clone --mirror --recursive -j8 "$entry" "$repo_name" || { log "Failed to clone $repo_name"; continue; }
@@ -136,15 +137,11 @@ for entry in "${repos[@]}"; do
         add_to_readme "$entry" "$repo_name"
         set_repo_status "$entry" "$repo_name"
 
-        new_hash='default_value'
-        if [[ -s "$repo_name.bundle" ]]; then
-            new_hash="$(sha256sum "$repo_name.bundle" | awk '{print $1}')"
-        fi
+        local new_hash='default_value'
+        [[ -f "$repo_name.bundle" ]] && new_hash="$(sha256sum "$repo_name.bundle" | awk '{print $1}')"
 
         if [[ "$new_hash" != "$current_hash" ]]; then
-            if [[ "$new_hash" != 'default_value' ]]; then
-                update_repo_date "$entry"
-            fi
+            [[ "$new_hash" != 'default_value' ]] && update_repo_date "$entry"
 
             if [[ "$SOFTWARE_HERITAGE" == 'true' ]]; then
                 response="$(curl --request POST "https://archive.softwareheritage.org/api/1/origin/save/git/url/$entry/" | jq --raw-output .save_request_status)"
