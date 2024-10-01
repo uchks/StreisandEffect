@@ -39,3 +39,4 @@ git clone streisandeffect/FILE.bundle
 | 🟩 | [TimerResolution](https://github.com/valleyofdoom/TimerResolution) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/valleyofdoom/TimerResolution) | 01/10/2024 |
 | 🟩 | [QueryDisplayScaling](https://github.com/valleyofdoom/QueryDisplayScaling) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/valleyofdoom/QueryDisplayScaling) | 01/10/2024 |
 | 🟩 | [Benchmark-DirectX9](https://github.com/valleyofdoom/Benchmark-DirectX9) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/valleyofdoom/Benchmark-DirectX9) | 01/10/2024 |
+| 🟩 | [win-wallpaper](https://github.com/valleyofdoom/win-wallpaper) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/valleyofdoom/win-wallpaper) | 01/10/2024 |
