@@ -30,3 +30,4 @@ See this [demo](https://github.com/uchks/StreisandEffect/tree/archive).
 | 🟩 | [PC-Tuning](https://github.com/valleyofdoom/PC-Tuning) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/valleyofdoom/PC-Tuning) | 01/10/2024 |
 | 🟩 | [limit-nvpstate](https://github.com/valleyofdoom/limit-nvpstate) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/valleyofdoom/limit-nvpstate) | 01/10/2024 |
 | 🟩 | [TimerResolution](https://github.com/valleyofdoom/TimerResolution) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/valleyofdoom/TimerResolution) | 01/10/2024 |
+| 🟩 | [QueryDisplayScaling](https://github.com/valleyofdoom/QueryDisplayScaling) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/valleyofdoom/QueryDisplayScaling) | 01/10/2024 |
