@@ -10,13 +10,23 @@ log() {
 init_git() {
     git config user.name 'github-actions[bot]'
     git config user.email 'github-actions[bot]@users.noreply.github.com'
-    git checkout --orphan "$ARCHIVE_BRANCH" || { log "Failed to create orphan branch"; exit 1; }
+    
+    # Check if the archive branch exists or create it
+    if ! git show-ref --verify --quiet "refs/heads/$ARCHIVE_BRANCH"; then
+        log "Creating $ARCHIVE_BRANCH branch."
+        git checkout -b "$ARCHIVE_BRANCH"
+    else
+        log "Switching to existing $ARCHIVE_BRANCH branch."
+        git checkout "$ARCHIVE_BRANCH"
+    fi
+
+    # Clean up the working tree
     find . -not -name '*.bundle' -not -path './.git*' -exec git rm -rf "{}" \;
     git pull origin "$ARCHIVE_BRANCH" || log "Failed to pull $ARCHIVE_BRANCH"
 }
 
 repo_exist_not_empty() {
-    git ls-remote --quiet --exit-code --heads "$1" | grep --max-count 1 "refs/heads/$2" &>/dev/null
+    git ls-remote --quiet --exit-code --heads "$1" &>/dev/null
 }
 
 is_comment() {
@@ -24,12 +34,20 @@ is_comment() {
 }
 
 url_exist() {
-    [[ "$(curl --silent --output /dev/null --write-out "%{http_code}" "$1")" == "200" ]]
+    curl --silent --output /dev/null --write-out "%{http_code}" "$1" | grep -q "200"
 }
 
-add_to_readme() {
+get_latest_commit_hash() {
+    git ls-remote "$1" HEAD | awk '{print $1}'
+}
+
+update_readme() {
     local repo_url="$1"
     local repo_name="$2"
+    local current_date="$(date '+%d/%m/%Y')"
+    local software_heritage_md='Not available'
+
+    url_exist "$repo_url" && software_heritage_md="[Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=$repo_url)"
 
     if [[ ! -s README.md ]]; then
         cat <<EOF > README.md
@@ -67,88 +85,57 @@ add_to_readme() {
 EOF
     fi
 
-    local software_heritage_md='Not available'
-    url_exist "$repo_url" && software_heritage_md="[Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=$repo_url)"
-
     if ! grep --silent "$repo_url" README.md; then
-        local current_date="$(date '+%d/%m/%Y')"
-        echo "| 🟩 | [$repo_name]($repo_url) | $software_heritage_md | $current_date |" >> README.md
+        local status_icon='🟥'
+        [[ $(url_exist "$repo_url") ]] && status_icon='🟩' || [[ -s "$repo_name.bundle" ]] && status_icon='🟨'
+        echo "| $status_icon | [$repo_name]($repo_url) | $software_heritage_md | $current_date |" >> README.md
     fi
-}
-
-update_repo_date() {
-    local repo_url="$1"
-    local current_date="$(date '+%d/%m/%Y')"
-
-    awk --assign url="$repo_url" --assign date="$current_date" 'BEGIN {FS=OFS="|"} $3 ~ url {$5=" "date" "} 1' README.md > README.md.temp && mv --force README.md.temp README.md
-}
-
-set_repo_status() {
-    local repo_url="$1"
-    local repo_name="$2"
-    local color='🟥'
-
-    if url_exist "$repo_url"; then
-        color='🟩'
-    elif [[ -s "$repo_name.bundle" ]]; then
-        color='🟨'
-    fi
-
-    awk --assign url="$repo_url" --assign status="$color" 'BEGIN {FS=OFS="|"} $3 ~ url {$2=" "status" "} 1' README.md > README.md.temp && mv --force README.md.temp README.md
-    [[ "$repo_name" == 'test-repo' ]] && cat README.md
 }
 
 commit_and_push() {
     local repo_name="$1"
-
-    log "Adding README.md to the commit"
-    git add README.md || { log "Failed to add README.md"; return 1; }
-
-    if [[ -f "$repo_name.bundle" ]]; then
-        log "Adding $repo_name.bundle to the commit"
-        git add "$repo_name.bundle" || { log "Failed to add $repo_name.bundle"; return 1; }
-    else
-        log "$repo_name.bundle not found, skipping."
-    fi
-
-    log "Committing changes"
-    git commit --message="Update $repo_name" || { log "Failed to commit changes"; return 1; }
-
-    log "Pushing changes to $ARCHIVE_BRANCH"
-    git push origin "$ARCHIVE_BRANCH" || { log "Failed to push changes to $ARCHIVE_BRANCH"; return 1; }
+    git add README.md "$repo_name.bundle" 2>/dev/null
+    git commit --message="Update $repo_name" && git push origin "$ARCHIVE_BRANCH"
 }
 
+# Read repository list from file
 mapfile -t repos < list.txt
 init_git
+
 for entry in "${repos[@]}"; do
-    if [[ -n "$entry" ]] && ! is_comment "$entry"; then
-        repo_name="$(basename "$entry")"
-        log "---------------------------- Archiving ${repo_name}... ----------------------------"
+    [[ -n "$entry" && ! is_comment "$entry" ]] || continue
 
-        local current_hash=''
-        [[ -f "$repo_name.bundle" ]] && current_hash="$(sha256sum "$repo_name.bundle" | awk '{print $1}')"
+    local repo_name="$(basename "$entry")"
+    log "---------------------------- Archiving ${repo_name}... ----------------------------"
 
-        if repo_exist_not_empty "$entry" "$ARCHIVE_BRANCH"; then
-            git clone --mirror --recursive -j8 "$entry" "$repo_name" || { log "Failed to clone $repo_name"; continue; }
-            git -C "$repo_name" bundle create "../$repo_name.bundle" --all || { log "Failed to create bundle for $repo_name"; continue; }
-            rm -rf "$repo_name"
+    local latest_commit_hash
+    latest_commit_hash=$(get_latest_commit_hash "$entry")
+    local existing_hash
+    [[ -f "$repo_name.bundle" ]] && existing_hash="$(git rev-parse "$repo_name.bundle" 2>/dev/null || echo '')"
+
+    if repo_exist_not_empty "$entry"; then
+        git clone --mirror --recursive -j8 "$entry" "$repo_name" || { log "Failed to clone $repo_name"; continue; }
+
+        # Create or update the bundle if the latest commit hash differs
+        if [[ -n "$latest_commit_hash" && "$latest_commit_hash" != "$existing_hash" ]]; then
+            git -C "$repo_name" bundle create "../$repo_name.bundle" --all
+            log "Updated bundle for $repo_name."
+        else
+            log "Bundle is up-to-date for $repo_name, skipping update."
         fi
 
-        add_to_readme "$entry" "$repo_name"
-        set_repo_status "$entry" "$repo_name"
+        rm -rf "$repo_name"
+        update_readme "$entry" "$repo_name"
 
-        local new_hash='default_value'
-        [[ -f "$repo_name.bundle" ]] && new_hash="$(sha256sum "$repo_name.bundle" | awk '{print $1}')"
-
-        if [[ "$new_hash" != "$current_hash" ]]; then
-            [[ "$new_hash" != 'default_value' ]] && update_repo_date "$entry"
-
-            if [[ "$SOFTWARE_HERITAGE" == 'true' ]]; then
-                response="$(curl --request POST "https://archive.softwareheritage.org/api/1/origin/save/git/url/$entry/" | jq --raw-output .save_request_status)"
-                log "Software Heritage: $response"
-            fi
+        # Post to Software Heritage
+        if [[ "$SOFTWARE_HERITAGE" == 'true' ]]; then
+            local response
+            response="$(curl --request POST "https://archive.softwareheritage.org/api/1/origin/save/git/url/$entry/" | jq --raw-output .save_request_status)"
+            log "Software Heritage: $response"
         fi
 
         commit_and_push "$repo_name"
+    else
+        log "$entry does not exist or is empty."
     fi
 done
