@@ -102,10 +102,17 @@ set_repo_status() {
 commit_and_push() {
     local repo_name="$1"
 
-    git add README.md
-    git add "$repo_name.bundle" >/dev/null 2>&1
-    git commit --message="Update $repo_name" >/dev/null 2>&1
-    git push origin "$ARCHIVE_BRANCH" >/dev/null 2>&1
+    log "Adding README.md to the commit"
+    git add README.md || { log "Failed to add README.md"; return 1; }
+
+    log "Adding $repo_name.bundle to the commit"
+    git add "$repo_name.bundle" || { log "Failed to add $repo_name.bundle"; return 1; }
+
+    log "Committing changes"
+    git commit --message="Update $repo_name" || { log "Failed to commit changes"; return 1; }
+
+    log "Pushing changes to $ARCHIVE_BRANCH"
+    git push origin "$ARCHIVE_BRANCH" || { log "Failed to push changes to $ARCHIVE_BRANCH"; return 1; }
 }
 
 mapfile -t repos < list.txt
