@@ -26,3 +26,8 @@ https://github.com/PabloMK7/citra
 https://git.gay/lucida/lucida
 https://git.gay/lucida/lucida-tagger
 https://git.gay/lucida.to/lucida-beatport
+
+# trackcord
+https://github.com/trackcord/scraper
+https://github.com/trackcord/joiner
+https://github.com/trackcord/archiver
