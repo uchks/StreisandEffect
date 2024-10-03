@@ -3,6 +3,7 @@ https://github.com/pystardust/ani-cli
 https://github.com/marios-commissions/stalker
 https://github.com/massgravel/Microsoft-Activation-Scripts
 https://github.com/corpnewt/gibMacOS
+https://github.com/SpotX-Official/SpotX
 
 # valleyofdoom
 https://github.com/valleyofdoom/PC-Tuning
@@ -20,7 +21,6 @@ https://github.com/valleyofdoom/MouseTester
 
 # fucktendo
 https://github.com/PabloMK7/citra
-https://github.com/dolphin-emu/dolphin
 
 # lucida
 https://git.gay/lucida/lucida
