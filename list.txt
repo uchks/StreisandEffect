@@ -22,6 +22,9 @@ https://github.com/valleyofdoom/MouseTester
 
 # fucktendo
 https://github.com/PabloMK7/citra
+https://github.com/dragoonDorise/EmuDeck
+https://github.com/Pomelo-Emu/Pomelo
+https://github.com/Pomelo-Emu/Sudachi
 
 # lucida
 https://git.gay/lucida/lucida
