@@ -4,6 +4,7 @@ https://github.com/marios-commissions/stalker
 https://github.com/massgravel/Microsoft-Activation-Scripts
 https://github.com/corpnewt/gibMacOS
 https://github.com/SpotX-Official/SpotX
+https://github.com/asdfzxcvbn/pyzule-rw
 
 # valleyofdoom
 https://github.com/valleyofdoom/PC-Tuning
