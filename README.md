@@ -55,4 +55,4 @@ git clone streisandeffect/FILE.bundle
 | 🟩 | [joiner](https://github.com/trackcord/joiner) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/trackcord/joiner) | 03/10/2024 |
 | 🟩 | [archiver](https://github.com/trackcord/archiver) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/trackcord/archiver) | 03/10/2024 |
 | 🟩 | [pyzule-rw](https://github.com/asdfzxcvbn/pyzule-rw) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/asdfzxcvbn/pyzule-rw) | 16/10/2024 |
-| 🟩 | [EmuDeck](https://github.com/dragoonDorise/EmuDeck) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/dragoonDorise/EmuDeck) | 24/10/2024 |
+| 🟩 | [EmuDeck](https://github.com/dragoonDorise/EmuDeck) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/dragoonDorise/EmuDeck) | 25/10/2024 |
