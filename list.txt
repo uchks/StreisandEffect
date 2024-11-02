@@ -6,6 +6,8 @@ https://github.com/corpnewt/gibMacOS
 https://github.com/SpotX-Official/SpotX
 https://github.com/asdfzxcvbn/pyzule-rw
 https://github.com/BlankTMing/ManifestAutoUpdate
+https://github.com/Detanup01/gbe_fork
+https://github.com/ajmandourah/tinshop-ng
 
 # valleyofdoom
 https://github.com/valleyofdoom/PC-Tuning
