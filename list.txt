@@ -8,6 +8,7 @@ https://github.com/asdfzxcvbn/pyzule-rw
 https://github.com/BlankTMing/ManifestAutoUpdate
 https://github.com/Detanup01/gbe_fork
 https://github.com/ajmandourah/tinshop-ng
+https://github.com/oureveryday/DepotDownloaderMod
 
 # valleyofdoom
 https://github.com/valleyofdoom/PC-Tuning
