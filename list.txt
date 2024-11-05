@@ -6,7 +6,7 @@ https://github.com/corpnewt/gibMacOS
 https://github.com/SpotX-Official/SpotX
 https://github.com/asdfzxcvbn/pyzule-rw
 https://github.com/BlankTMing/ManifestAutoUpdate
-https://github.com/Detanup01/gbe_fork
+# https://github.com/Detanup01/gbe_fork - git lfs
 https://github.com/ajmandourah/tinshop-ng
 https://github.com/oureveryday/DepotDownloaderMod
 
@@ -27,7 +27,7 @@ https://github.com/valleyofdoom/MouseTester
 # fucktendo
 https://github.com/PabloMK7/citra
 https://github.com/dragoonDorise/EmuDeck
-# https://github.com/GreemDev/Ryujinx
+# https://github.com/GreemDev/Ryujinx - git lfs
 
 # lucida
 https://git.gay/lucida/lucida
