@@ -30,7 +30,7 @@ git clone streisandeffect/FILE.bundle
 | Status | Name | Software Heritage | Last Update |
 | - | - | - | - |
 | 🟩 | [yt-dlp](https://github.com/yt-dlp/yt-dlp) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/yt-dlp/yt-dlp) | 05/11/2024 |
-| 🟩 | [ani-cli](https://github.com/pystardust/ani-cli) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/pystardust/ani-cli) | 04/11/2024 |
+| 🟩 | [ani-cli](https://github.com/pystardust/ani-cli) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/pystardust/ani-cli) | 05/11/2024 |
 | 🟩 | [stalker](https://github.com/marios-commissions/stalker) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/marios-commissions/stalker) | 01/10/2024 |
 | 🟩 | [Microsoft-Activation-Scripts](https://github.com/massgravel/Microsoft-Activation-Scripts) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/massgravel/Microsoft-Activation-Scripts) | 04/11/2024 |
 | 🟩 | [gibMacOS](https://github.com/corpnewt/gibMacOS) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/corpnewt/gibMacOS) | 04/11/2024 |
