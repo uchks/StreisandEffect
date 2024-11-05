@@ -57,3 +57,4 @@ git clone streisandeffect/FILE.bundle
 | 🟩 | [pyzule-rw](https://github.com/asdfzxcvbn/pyzule-rw) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/asdfzxcvbn/pyzule-rw) | 03/11/2024 |
 | 🟩 | [EmuDeck](https://github.com/dragoonDorise/EmuDeck) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/dragoonDorise/EmuDeck) | 31/10/2024 |
 | 🟩 | [ManifestAutoUpdate](https://github.com/BlankTMing/ManifestAutoUpdate) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/BlankTMing/ManifestAutoUpdate) | 27/10/2024 |
+| 🟩 | [tinshop-ng](https://github.com/ajmandourah/tinshop-ng) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/ajmandourah/tinshop-ng) | 05/11/2024 |
