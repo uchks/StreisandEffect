@@ -58,4 +58,4 @@ git clone streisandeffect/FILE.bundle
 | 🟩 | [EmuDeck](https://github.com/dragoonDorise/EmuDeck) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/dragoonDorise/EmuDeck) | 09/11/2024 |
 | 🟩 | [ManifestAutoUpdate](https://github.com/BlankTMing/ManifestAutoUpdate) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/BlankTMing/ManifestAutoUpdate) | 27/10/2024 |
 | 🟩 | [tinshop-ng](https://github.com/ajmandourah/tinshop-ng) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/ajmandourah/tinshop-ng) | 05/11/2024 |
-| 🟩 | [DepotDownloaderMod](https://github.com/oureveryday/DepotDownloaderMod) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/oureveryday/DepotDownloaderMod) | 09/11/2024 |
+| 🟩 | [DepotDownloaderMod](https://github.com/oureveryday/DepotDownloaderMod) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/oureveryday/DepotDownloaderMod) | 10/11/2024 |
