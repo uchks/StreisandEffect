@@ -49,7 +49,7 @@ git clone streisandeffect/FILE.bundle
 | 🟩 | [citra](https://github.com/PabloMK7/citra) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/PabloMK7/citra) | 01/12/2024 |
 | 🟨 | [lucida](https://git.gay/lucida/lucida) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://git.gay/lucida/lucida) | 30/11/2024 |
 | 🟨 | [lucida-tagger](https://git.gay/lucida/lucida-tagger) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://git.gay/lucida/lucida-tagger) | 30/11/2024 |
-| 🟩 | [lucida-beatport](https://git.gay/lucida.to/lucida-beatport) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://git.gay/lucida.to/lucida-beatport) | 28/11/2024 |
+| 🟨 | [lucida-beatport](https://git.gay/lucida.to/lucida-beatport) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://git.gay/lucida.to/lucida-beatport) | 28/11/2024 |
 | 🟩 | [SpotX](https://github.com/SpotX-Official/SpotX) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/SpotX-Official/SpotX) | 01/12/2024 |
 | 🟩 | [scraper](https://github.com/trackcord/scraper) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/trackcord/scraper) | 05/11/2024 |
 | 🟩 | [joiner](https://github.com/trackcord/joiner) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/trackcord/joiner) | 03/10/2024 |
