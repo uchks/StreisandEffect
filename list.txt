@@ -9,6 +9,7 @@ https://github.com/BlankTMing/ManifestAutoUpdate
 # https://github.com/Detanup01/gbe_fork - git lfs
 https://github.com/ajmandourah/tinshop-ng
 https://github.com/oureveryday/DepotDownloaderMod
+https://github.com/ignaciocastro/a-dove-is-dumb
 
 # valleyofdoom
 https://github.com/valleyofdoom/PC-Tuning
