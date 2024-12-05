@@ -35,7 +35,13 @@ https://git.gay/lucida/lucida
 https://git.gay/lucida/lucida-tagger
 https://git.gay/lucida.to/lucida-beatport
 
-# trackcord
+# trackcord - igna
 https://github.com/trackcord/scraper
 https://github.com/trackcord/joiner
 https://github.com/trackcord/archiver
+
+# igna
+https://github.com/5e8d7f/api.shiro.rest
+https://github.com/5e8d7f/kayo
+https://github.com/5e8d7f/fm.shiro.wtf
+https://github.com/5e8d7f/shiro.rest
