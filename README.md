@@ -63,3 +63,4 @@ git clone streisandeffect/FILE.bundle
 | 🟩 | [api.shiro.rest](https://github.com/5e8d7f/api.shiro.rest) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/5e8d7f/api.shiro.rest) | 05/12/2024 |
 | 🟩 | [kayo](https://github.com/5e8d7f/kayo) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/5e8d7f/kayo) | 05/12/2024 |
 | 🟩 | [fm.shiro.wtf](https://github.com/5e8d7f/fm.shiro.wtf) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/5e8d7f/fm.shiro.wtf) | 05/12/2024 |
+| 🟩 | [shiro.rest](https://github.com/5e8d7f/shiro.rest) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/5e8d7f/shiro.rest) | 05/12/2024 |
