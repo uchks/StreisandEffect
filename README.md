@@ -59,3 +59,4 @@ git clone streisandeffect/FILE.bundle
 | 🟩 | [ManifestAutoUpdate](https://github.com/BlankTMing/ManifestAutoUpdate) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/BlankTMing/ManifestAutoUpdate) | 27/10/2024 |
 | 🟩 | [tinshop-ng](https://github.com/ajmandourah/tinshop-ng) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/ajmandourah/tinshop-ng) | 05/11/2024 |
 | 🟩 | [DepotDownloaderMod](https://github.com/oureveryday/DepotDownloaderMod) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/oureveryday/DepotDownloaderMod) | 05/12/2024 |
+| 🟩 | [a-dove-is-dumb](https://github.com/ignaciocastro/a-dove-is-dumb) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/ignaciocastro/a-dove-is-dumb) | 05/12/2024 |
