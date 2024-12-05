@@ -61,3 +61,4 @@ git clone streisandeffect/FILE.bundle
 | 🟩 | [DepotDownloaderMod](https://github.com/oureveryday/DepotDownloaderMod) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/oureveryday/DepotDownloaderMod) | 05/12/2024 |
 | 🟩 | [a-dove-is-dumb](https://github.com/ignaciocastro/a-dove-is-dumb) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/ignaciocastro/a-dove-is-dumb) | 05/12/2024 |
 | 🟩 | [api.shiro.rest](https://github.com/5e8d7f/api.shiro.rest) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/5e8d7f/api.shiro.rest) | 05/12/2024 |
+| 🟩 | [kayo](https://github.com/5e8d7f/kayo) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/5e8d7f/kayo) | 05/12/2024 |
