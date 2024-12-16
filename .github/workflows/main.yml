@@ -1,5 +1,4 @@
 name: Update Archives
-
 on:
   workflow_dispatch:
     inputs:
@@ -26,9 +25,30 @@ jobs:
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-
+          lfs: true  # Enable Git LFS checkout
+      
+      - name: Install Git LFS
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y git-lfs
+          git lfs install
+      
+      - name: Pull LFS objects
+        run: git lfs pull
+      
       - name: Overwrite options
         if: github.event_name == 'workflow_dispatch' && (github.event.inputs.to_software_heritage == 'true' || github.event.inputs.to_software_heritage == 'false')
         run: sed --in-place "s|^SOFTWARE_HERITAGE='.*'|SOFTWARE_HERITAGE='${{ github.event.inputs.to_software_heritage }}'|g" main.sh
-
-      - run: ./main.sh
+      
+      - name: Run main script
+        run: ./main.sh
+      
+      - name: Git LFS Push
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add .
+          git lfs track "*.bin" "*.large" # Add patterns for large files
+          git add .gitattributes
+          git commit -m "Update archives and LFS tracking"
+          git push
