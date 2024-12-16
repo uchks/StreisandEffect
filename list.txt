@@ -45,3 +45,9 @@ https://github.com/5e8d7f/api.shiro.rest
 https://github.com/5e8d7f/kayo
 https://github.com/5e8d7f/fm.shiro.wtf
 https://github.com/5e8d7f/shiro.rest
+
+# Voukoder
+https://github.com/Vouk/voukoder
+https://github.com/Vouk/voukoder-ffmpeg
+https://github.com/Vouk/voukoder-connectors
+https://github.com/Vouk/virtualdub-voukoder
