@@ -57,7 +57,7 @@ git clone streisandeffect/FILE.bundle
 | 🟩 | [pyzule-rw](https://github.com/asdfzxcvbn/pyzule-rw) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/asdfzxcvbn/pyzule-rw) | 27/11/2024 |
 | 🟩 | [EmuDeck](https://github.com/dragoonDorise/EmuDeck) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/dragoonDorise/EmuDeck) | 17/12/2024 |
 | 🟩 | [ManifestAutoUpdate](https://github.com/BlankTMing/ManifestAutoUpdate) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/BlankTMing/ManifestAutoUpdate) | 27/10/2024 |
-| 🟩 | [tinshop-ng](https://github.com/ajmandourah/tinshop-ng) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/ajmandourah/tinshop-ng) | 05/11/2024 |
+| 🟩 | [tinshop-ng](https://github.com/ajmandourah/tinshop-ng) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/ajmandourah/tinshop-ng) | 18/12/2024 |
 | 🟩 | [DepotDownloaderMod](https://github.com/oureveryday/DepotDownloaderMod) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/oureveryday/DepotDownloaderMod) | 17/12/2024 |
 | 🟩 | [a-dove-is-dumb](https://github.com/ignaciocastro/a-dove-is-dumb) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/ignaciocastro/a-dove-is-dumb) | 16/12/2024 |
 | 🟩 | [api.shiro.rest](https://github.com/5e8d7f/api.shiro.rest) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/5e8d7f/api.shiro.rest) | 05/12/2024 |
