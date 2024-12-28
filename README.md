@@ -51,7 +51,7 @@ git clone streisandeffect/FILE.bundle
 | 🟩 | [lucida-tagger](https://git.gay/lucida/lucida-tagger) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://git.gay/lucida/lucida-tagger) | 28/12/2024 |
 | 🟩 | [lucida-beatport](https://git.gay/lucida.to/lucida-beatport) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://git.gay/lucida.to/lucida-beatport) | 08/12/2024 |
 | 🟩 | [SpotX](https://github.com/SpotX-Official/SpotX) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/SpotX-Official/SpotX) | 25/12/2024 |
-| 🟩 | [scraper](https://github.com/trackcord/scraper) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/trackcord/scraper) | 05/12/2024 |
+| 🟨 | [scraper](https://github.com/trackcord/scraper) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/trackcord/scraper) | 05/12/2024 |
 | 🟩 | [joiner](https://github.com/trackcord/joiner) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/trackcord/joiner) | 03/10/2024 |
 | 🟩 | [archiver](https://github.com/trackcord/archiver) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/trackcord/archiver) | 03/10/2024 |
 | 🟩 | [pyzule-rw](https://github.com/asdfzxcvbn/pyzule-rw) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/asdfzxcvbn/pyzule-rw) | 27/11/2024 |
