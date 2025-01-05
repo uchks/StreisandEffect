@@ -46,7 +46,7 @@ git clone streisandeffect/FILE.bundle
 | 🟩 | [StresKit](https://github.com/valleyofdoom/StresKit) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/valleyofdoom/StresKit) | 22/12/2024 |
 | 🟩 | [AutoGpuAffinity](https://github.com/valleyofdoom/AutoGpuAffinity) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/valleyofdoom/AutoGpuAffinity) | 14/10/2024 |
 | 🟩 | [MouseTester](https://github.com/valleyofdoom/MouseTester) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/valleyofdoom/MouseTester) | 02/01/2025 |
-| 🟩 | [citra](https://github.com/PabloMK7/citra) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/PabloMK7/citra) | 04/01/2025 |
+| 🟩 | [citra](https://github.com/PabloMK7/citra) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/PabloMK7/citra) | 05/01/2025 |
 | 🟩 | [lucida](https://git.gay/lucida/lucida) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://git.gay/lucida/lucida) | 04/01/2025 |
 | 🟩 | [lucida-tagger](https://git.gay/lucida/lucida-tagger) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://git.gay/lucida/lucida-tagger) | 04/01/2025 |
 | 🟩 | [lucida-beatport](https://git.gay/lucida.to/lucida-beatport) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://git.gay/lucida.to/lucida-beatport) | 08/12/2024 |
