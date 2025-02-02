@@ -58,7 +58,7 @@ git clone streisandeffect/FILE.bundle
 | 🟩 | [EmuDeck](https://github.com/dragoonDorise/EmuDeck) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/dragoonDorise/EmuDeck) | 01/02/2025 |
 | 🟩 | [ManifestAutoUpdate](https://github.com/BlankTMing/ManifestAutoUpdate) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/BlankTMing/ManifestAutoUpdate) | 27/10/2024 |
 | 🟩 | [tinshop-ng](https://github.com/ajmandourah/tinshop-ng) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/ajmandourah/tinshop-ng) | 18/12/2024 |
-| 🟩 | [DepotDownloaderMod](https://github.com/oureveryday/DepotDownloaderMod) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/oureveryday/DepotDownloaderMod) | 28/01/2025 |
+| 🟩 | [DepotDownloaderMod](https://github.com/oureveryday/DepotDownloaderMod) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/oureveryday/DepotDownloaderMod) | 02/02/2025 |
 | 🟩 | [a-dove-is-dumb](https://github.com/ignaciocastro/a-dove-is-dumb) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/ignaciocastro/a-dove-is-dumb) | 31/01/2025 |
 | 🟩 | [api.shiro.rest](https://github.com/5e8d7f/api.shiro.rest) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/5e8d7f/api.shiro.rest) | 05/12/2024 |
 | 🟩 | [kayo](https://github.com/5e8d7f/kayo) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/5e8d7f/kayo) | 05/12/2024 |
