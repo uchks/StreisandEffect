@@ -65,3 +65,4 @@ git clone streisandeffect/FILE.bundle
 | 🟩 | [fm.shiro.wtf](https://github.com/5e8d7f/fm.shiro.wtf) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/5e8d7f/fm.shiro.wtf) | 05/12/2024 |
 | 🟩 | [shiro.rest](https://github.com/5e8d7f/shiro.rest) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/5e8d7f/shiro.rest) | 05/12/2024 |
 | 🟥 | [voukoder](https://github.com/Vouk/voukoder) | Not available | never |
+| 🟩 | [voukoder-ffmpeg](https://github.com/Vouk/voukoder-ffmpeg) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/Vouk/voukoder-ffmpeg) | 08/02/2025 |
