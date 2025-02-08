@@ -67,3 +67,4 @@ git clone streisandeffect/FILE.bundle
 | 🟥 | [voukoder](https://github.com/Vouk/voukoder) | Not available | never |
 | 🟩 | [voukoder-ffmpeg](https://github.com/Vouk/voukoder-ffmpeg) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/Vouk/voukoder-ffmpeg) | 08/02/2025 |
 | 🟥 | [voukoder-connectors](https://github.com/Vouk/voukoder-connectors) | Not available | never |
+| 🟩 | [virtualdub-voukoder](https://github.com/Vouk/virtualdub-voukoder) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/Vouk/virtualdub-voukoder) | 08/02/2025 |
