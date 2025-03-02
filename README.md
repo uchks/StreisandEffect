@@ -29,7 +29,7 @@ git clone streisandeffect/FILE.bundle
 
 | Status | Name | Software Heritage | Last Update |
 | - | - | - | - |
-| 🟩 | [yt-dlp](https://github.com/yt-dlp/yt-dlp) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/yt-dlp/yt-dlp) | 01/03/2025 |
+| 🟩 | [yt-dlp](https://github.com/yt-dlp/yt-dlp) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/yt-dlp/yt-dlp) | 02/03/2025 |
 | 🟩 | [ani-cli](https://github.com/pystardust/ani-cli) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/pystardust/ani-cli) | 28/02/2025 |
 | 🟨 | [stalker](https://github.com/marios-commissions/stalker) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/marios-commissions/stalker) | 21/01/2025 |
 | 🟩 | [Microsoft-Activation-Scripts](https://github.com/massgravel/Microsoft-Activation-Scripts) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/massgravel/Microsoft-Activation-Scripts) | 27/02/2025 |
