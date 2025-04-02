@@ -43,7 +43,7 @@ git clone streisandeffect/FILE.bundle
 | 🟩 | [ReservedCpuSets](https://github.com/valleyofdoom/ReservedCpuSets) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/valleyofdoom/ReservedCpuSets) | 01/10/2024 |
 | 🟩 | [AppxPackagesManager](https://github.com/valleyofdoom/AppxPackagesManager) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/valleyofdoom/AppxPackagesManager) | 30/10/2024 |
 | 🟩 | [service-list-builder](https://github.com/valleyofdoom/service-list-builder) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/valleyofdoom/service-list-builder) | 28/03/2025 |
-| 🟩 | [StresKit](https://github.com/valleyofdoom/StresKit) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/valleyofdoom/StresKit) | 28/03/2025 |
+| 🟩 | [StresKit](https://github.com/valleyofdoom/StresKit) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/valleyofdoom/StresKit) | 02/04/2025 |
 | 🟩 | [AutoGpuAffinity](https://github.com/valleyofdoom/AutoGpuAffinity) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/valleyofdoom/AutoGpuAffinity) | 28/03/2025 |
 | 🟩 | [MouseTester](https://github.com/valleyofdoom/MouseTester) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/valleyofdoom/MouseTester) | 01/04/2025 |
 | 🟩 | [citra](https://github.com/PabloMK7/citra) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/PabloMK7/citra) | 01/04/2025 |
