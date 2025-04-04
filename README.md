@@ -56,7 +56,7 @@ git clone streisandeffect/FILE.bundle
 | 🟨 | [archiver](https://github.com/trackcord/archiver) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/trackcord/archiver) | 03/10/2024 |
 | 🟩 | [pyzule-rw](https://github.com/asdfzxcvbn/pyzule-rw) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/asdfzxcvbn/pyzule-rw) | 19/03/2025 |
 | 🟩 | [EmuDeck](https://github.com/dragoonDorise/EmuDeck) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/dragoonDorise/EmuDeck) | 03/04/2025 |
-| 🟩 | [ManifestAutoUpdate](https://github.com/BlankTMing/ManifestAutoUpdate) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/BlankTMing/ManifestAutoUpdate) | 03/04/2025 |
+| 🟩 | [ManifestAutoUpdate](https://github.com/BlankTMing/ManifestAutoUpdate) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/BlankTMing/ManifestAutoUpdate) | 04/04/2025 |
 | 🟩 | [tinshop-ng](https://github.com/ajmandourah/tinshop-ng) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/ajmandourah/tinshop-ng) | 18/12/2024 |
 | 🟨 | [DepotDownloaderMod](https://github.com/oureveryday/DepotDownloaderMod) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/oureveryday/DepotDownloaderMod) | 02/04/2025 |
 | 🟩 | [a-dove-is-dumb](https://github.com/ignaciocastro/a-dove-is-dumb) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/ignaciocastro/a-dove-is-dumb) | 03/04/2025 |
