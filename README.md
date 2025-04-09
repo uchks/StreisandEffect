@@ -47,8 +47,8 @@ git clone streisandeffect/FILE.bundle
 | 🟩 | [AutoGpuAffinity](https://github.com/valleyofdoom/AutoGpuAffinity) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/valleyofdoom/AutoGpuAffinity) | 28/03/2025 |
 | 🟩 | [MouseTester](https://github.com/valleyofdoom/MouseTester) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/valleyofdoom/MouseTester) | 09/04/2025 |
 | 🟩 | [citra](https://github.com/PabloMK7/citra) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/PabloMK7/citra) | 09/04/2025 |
-| 🟨 | [lucida](https://git.gay/lucida/lucida) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://git.gay/lucida/lucida) | 20/03/2025 |
-| 🟨 | [lucida-tagger](https://git.gay/lucida/lucida-tagger) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://git.gay/lucida/lucida-tagger) | 20/03/2025 |
+| 🟨 | [lucida](https://git.gay/lucida/lucida) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://git.gay/lucida/lucida) | 09/04/2025 |
+| 🟨 | [lucida-tagger](https://git.gay/lucida/lucida-tagger) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://git.gay/lucida/lucida-tagger) | 09/04/2025 |
 | 🟨 | [lucida-beatport](https://git.gay/lucida.to/lucida-beatport) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://git.gay/lucida.to/lucida-beatport) | 08/12/2024 |
 | 🟩 | [SpotX](https://github.com/SpotX-Official/SpotX) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/SpotX-Official/SpotX) | 07/04/2025 |
 | 🟨 | [scraper](https://github.com/trackcord/scraper) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/trackcord/scraper) | 22/02/2025 |
