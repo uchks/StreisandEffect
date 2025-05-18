@@ -32,7 +32,7 @@ git clone streisandeffect/FILE.bundle
 | 🟩 | [yt-dlp](https://github.com/yt-dlp/yt-dlp) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/yt-dlp/yt-dlp) | 18/05/2025 |
 | 🟩 | [ani-cli](https://github.com/pystardust/ani-cli) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/pystardust/ani-cli) | 17/05/2025 |
 | 🟨 | [stalker](https://github.com/marios-commissions/stalker) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/marios-commissions/stalker) | 21/01/2025 |
-| 🟩 | [Microsoft-Activation-Scripts](https://github.com/massgravel/Microsoft-Activation-Scripts) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/massgravel/Microsoft-Activation-Scripts) | 16/05/2025 |
+| 🟩 | [Microsoft-Activation-Scripts](https://github.com/massgravel/Microsoft-Activation-Scripts) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/massgravel/Microsoft-Activation-Scripts) | 18/05/2025 |
 | 🟩 | [gibMacOS](https://github.com/corpnewt/gibMacOS) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/corpnewt/gibMacOS) | 16/05/2025 |
 | 🟩 | [PC-Tuning](https://github.com/valleyofdoom/PC-Tuning) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/valleyofdoom/PC-Tuning) | 18/04/2025 |
 | 🟩 | [limit-nvpstate](https://github.com/valleyofdoom/limit-nvpstate) | [Link](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/valleyofdoom/limit-nvpstate) | 03/02/2025 |
